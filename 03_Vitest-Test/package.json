@@ -1,0 +1,27 @@
+{
+  "name": "03_vitest-test",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.7.2",
+    "vitest": "^3.2.4",
+    "vitest-mock-extended": "^3.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.1",
+    "@types/express": "^5.0.3",
+    "@types/supertest": "^6.0.3",
+    "express": "^5.1.0",
+    "prisma": "^6.17.1",
+    "supertest": "^7.1.4",
+    "zod": "^4.1.12"
+  }
+}
